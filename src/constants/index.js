@@ -105,7 +105,7 @@ export const projects = [
       { name: 'Weather API by API Ninjas', color: 'yellow-text-gradient' },
     ],
     image: weatherpedia,
-    source_code_link: 'https://github.com/Howiekolluri/WeatherPedia',
+    source_code_link: 'https://github.com/HowieCanning/WeatherPedia',
   },
   {
     name: 'Terminal Like Portfolio Website',
@@ -117,7 +117,7 @@ export const projects = [
       { name: 'Javascript', color: 'pink-text-gradient' },
     ],
     image: termpw,
-    source_code_link: 'https://github.com/Howiekolluri/Howiekolluri.github.io',
+    source_code_link: 'https://github.com/HowieCanning/HowieCanning.github.io',
   },
   {
     name: 'Mental Health Fitness Tracker',
@@ -130,7 +130,7 @@ export const projects = [
     ],
     image: mhft,
     source_code_link:
-      'https://github.com/Howiekolluri/mental_health_fitness_tracker',
+      'https://github.com/HowieCanning/mental_health_fitness_tracker',
   },
   {
     name: 'PayloadMaster',
@@ -138,7 +138,7 @@ export const projects = [
       'Tool to automate payload creation using the Metasploit framework',
     tags: [{ name: 'shell', color: 'blue-text-gradient' }],
     image: payloadmaster,
-    source_code_link: 'https://github.com/Howiekolluri/PayloadMaster',
+    source_code_link: 'https://github.com/HowieCanning/PayloadMaster',
   },
   {
     name: 'CompileVortex',
@@ -150,7 +150,7 @@ export const projects = [
       { name: 'HTML', color: 'pink-text-gradient' },
     ],
     image: CompileVortex,
-    source_code_link: 'https://github.com/Howiekolluri/CompileVortex',
+    source_code_link: 'https://github.com/HowieCanning/CompileVortex',
   },
   {
     name: 'Sketcher',
@@ -164,6 +164,6 @@ export const projects = [
 
     image: sketcher,
     source_code_link:
-      'https://github.com/Howiekolluri/Image_to_Pencil_Sketch_App',
+      'https://github.com/HowieCanning/Image_to_Pencil_Sketch_App',
   },
 ];

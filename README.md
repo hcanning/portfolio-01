@@ -10,7 +10,7 @@
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
-[![GitHub license](https://img.shields.io/github/license/Howiekolluri/Portfolio?style=flat-square)](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/HowieCanning/Portfolio?style=flat-square)](LICENSE)
 [![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fportfolio-Howie.vercel.app)](https://portfolio-Howie.vercel.app)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
@@ -54,7 +54,7 @@ Experience the live portfolio at [https://portfolio-Howie.vercel.app](https://po
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/Howiekolluri/Portfolio-Website
+git clone https://github.com/HowieCanning/Portfolio-Website
 ```
 
 2️⃣ Navigate to project directory:
@@ -130,7 +130,7 @@ npm run dev
 
 <div align="center">
 
-MIT License © [Howie Kolluri](LICENSE)
+MIT License © [Howie Canning](LICENSE)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 

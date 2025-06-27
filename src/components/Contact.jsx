@@ -71,9 +71,9 @@ const Contact = () => {
         'template_mf5x3bh',
         {
           from_name: form.name,
-          to_name: 'Howie Kolluri',
+          to_name: 'Howie Canning',
           from_email: form.email,
-          to_email: 'Howiekolluri@gmail.com',
+          to_email: 'i@hcann.io',
           message: form.message,
         },
         'p-gXzzyvEhPaJ0XA-'
