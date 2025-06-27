@@ -20,12 +20,20 @@ const Navbar = () => {
   }, [toggle]);
 
   const renderNavLinks = (isSecondary) => (
-    <ul className={`list-none ${isSecondary ? 'flex sm:hidden' : 'hidden sm:flex'} flex-row gap-6`}>
+    <ul
+      className={`list-none ${
+        isSecondary ? 'flex sm:hidden' : 'hidden sm:flex'
+      } flex-row gap-6`}
+    >
       {navLinks.map((link) => (
         <li
           key={link.id}
           className={`${
-            active === link.title ? 'text-white' : isSecondary ? 'text-secondary' : 'text-white'
+            active === link.title
+              ? 'text-white'
+              : isSecondary
+              ? 'text-secondary'
+              : 'text-white'
           } hover:text-white text-[20px] font-medium cursor-pointer`}
           onClick={() => {
             setActive(link.title);
@@ -52,27 +60,27 @@ const Navbar = () => {
       <nav
         className={`${styles.paddingX} w-full flex items-center py-3 fixed top-0 z-20 bg-primary`}
       >
-        <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+        <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
           <Link
-            to="/"
-            className="flex items-center gap-2"
+            to='/'
+            className='flex items-center gap-2'
             onClick={() => {
               setActive('');
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-            <p className="text-white text-[20px] font-bold cursor-pointer flex">
-              LOHIT&nbsp;
-              <span className="sm:block hidden">KOLLURI</span>
+            <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+            <p className='text-white text-[20px] font-bold cursor-pointer flex'>
+              Howie&nbsp;
+              <span className='sm:block hidden'>KOLLURI</span>
             </p>
           </Link>
           {renderNavLinks(false)}
-          <div className="sm:hidden flex flex-1 justify-end items-center">
+          <div className='sm:hidden flex flex-1 justify-end items-center'>
             <img
               src={toggle ? close : menu}
-              alt="menu"
-              className="w-[28px] h-[18px] object-contain cursor-pointer"
+              alt='menu'
+              className='w-[28px] h-[18px] object-contain cursor-pointer'
               onClick={() => setToggle(!toggle)}
             />
             <div
